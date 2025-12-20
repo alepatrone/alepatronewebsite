@@ -1,0 +1,15 @@
+
+sass --watch "C:\Users\Admin\Dropbox\Harun Pure\bfolio\assets\scss\main.scss":"C:\Users\Admin\Dropbox\Harun Pure\bfolio\assets\css\main.css"
+
+
+
+
+common-changes
+hero-changes
+animetion changes
+color change
+header change
+dark change
+menu-changes
+ofcanvas-changes
+mobile-menu-changes
