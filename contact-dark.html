@@ -55,90 +55,112 @@
    <!-- back to top end -->
 
 
-   <!-- tp-offcanvus-area-start -->
-   <div class="tp-offcanvas-area">
-      <div class="tp-offcanvas">
-         <div class="tp-offcanvas-top d-flex align-items-center justify-content-between">
-            <div class="tp-header-logo">
-               <a class="logo-dark d-none" href="index.html"><img data-width="138" src="assets/img/logo/logo-white.png" alt=""></a>
-               <!-- <a class="logo-white" href="index.html"><img data-width="138" src="assets/img/logo/logo-white.png" alt=""></a> -->
+   <!-- offcanvas start -->
+   <div class="tp-offcanvas-2-area p-relative">
+      <div class="tp-offcanvas-2-bg is-left left-box"></div>
+      <div class="tp-offcanvas-2-bg is-right right-box d-none d-md-block"></div>
+      <div class="tp-offcanvas-2-wrapper">
+         <div class="tp-offcanvas-2-left left-box">
+            <div class="tp-offcanvas-2-left-wrap d-flex justify-content-between align-items-center">
+               <div class="tp-offcanvas-2-logo">
+                  <a href="index.html">
+                     <img class="logo-1" data-width="150" src="assets/img/logo/logo-white.png" alt="">
+                     <!-- <img class="logo-2" data-width="150" src="assets/img/logo/logo-white.png" alt=""> -->
+                  </a>
+               </div>
+               <div class="tp-offcanvas-2-close d-md-none text-end">
+                  <button class="tp-offcanvas-2-close-btn">
+                     <span class="texts">
+                        <span>close</span>
+                     </span>
+                     <span class="d-inline-block">
+                        <span>
+                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <rect width="32.621" height="1.00918"
+                                 transform="matrix(0.704882 0.709325 -0.704882 0.709325 1.0061 0)" fill="currentcolor">
+                              </rect>
+                              <rect width="32.621" height="1.00918"
+                                 transform="matrix(0.704882 -0.709325 0.704882 0.709325 0 23.2842)" fill="currentcolor">
+                              </rect>
+                           </svg>
+                        </span>
+                     </span>
+                  </button>
+               </div>
             </div>
-            <div class="tp-offcanvas-close-btn">
-               <button class="close-btn">
-                  <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path d="M9.19141 9.80762L27.5762 28.1924" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                     <path d="M9.19141 28.1924L27.5762 9.80761" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
+            <div class="tp-offcanvas-menu counter-row">
+               <nav></nav>
+            </div>
+         </div>
+         <div class="tp-offcanvas-2-right right-box d-none d-md-block p-relative">
+            <div class="tp-offcanvas-2-close text-end">
+               <button class="tp-offcanvas-2-close-btn">
+                  <span class="texts"><span>chiudi</span></span>
+                  <span class="d-inline-block">
+                     <span>
+                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M9.80859 9.80762L28.1934 28.1924" stroke="currentColor" stroke-width="1.5"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                           <path d="M9.80859 28.1924L28.1934 9.80761" stroke="currentColor" stroke-width="1.5"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                     </span>
+                  </span>
                </button>
             </div>
-         </div>
-         <div class="tp-offcanvas-contact">
-            <h3 class="tp-offcanvas-title sm">Information</h3>
-            <ul>
-               <li><a href="tel:1245654">+39 3407135601</a></li>
-               <li><a href="mailto:alessandro.patrone@hotmail.it">alessandro.patrone@hotmail.it</a></li>
-               <li><a href="#">Milano, Italia</a></li>
-            </ul>
-         </div>
-         <div class="tp-offcanvas-social">
-            <h3 class="tp-offcanvas-title sm">Seguimi</h3>
-            <ul>
-               <li>
-                  <a href="https://www.instagram.com/alepatrone/">
-                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.25 1.5H4.75C2.95507 1.5 1.5 2.95507 1.5 4.75V11.25C1.5 13.0449 2.95507 14.5 4.75 14.5H11.25C13.0449 14.5 14.5 13.0449 14.5 11.25V4.75C14.5 2.95507 13.0449 1.5 11.25 1.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M10.6016 7.5907C10.6818 8.13166 10.5894 8.68414 10.3375 9.16955C10.0856 9.65497 9.68711 10.0486 9.19862 10.2945C8.71014 10.5404 8.15656 10.6259 7.61663 10.5391C7.0767 10.4522 6.57791 10.1972 6.19121 9.81055C5.80451 9.42385 5.54959 8.92506 5.46271 8.38513C5.37583 7.8452 5.46141 7.29163 5.70728 6.80314C5.95315 6.31465 6.34679 5.91613 6.83221 5.66425C7.31763 5.41238 7.87011 5.31998 8.41107 5.4002C8.96287 5.48202 9.47372 5.73915 9.86817 6.1336C10.2626 6.52804 10.5197 7.0389 10.6016 7.5907Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M11.5742 4.42578H11.5842" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                     </svg>
+            <div class="tp-offcanvas-2-right-info-box mt-160">
+               <h4 class="tp-offcanvas-2-right-info-title">Contattami</h4>
+               <div class="tp-offcanvas-2-right-info-item">
+                  <label class="mb-10">Telefono</label>
+                  <a class="underline-white" href="tel:42345678910">+39 3407135601</a>
+               </div>
+               <div class="tp-offcanvas-2-right-info-item">
+                  <label class="mb-10">Email</label>
+                  <a class="underline-white" href="mailto:alessandro.patrone@hotmail.it">alessandro.patrone@hotmail.it</a>
+               </div>
+               <div class="tp-offcanvas-2-right-info-item">
+                  <label class="mb-10">Indirizzo</label>
+                  <a class="underline-white" href="https://maps.app.goo.gl/dU3aYWTC3W3UZwRr9" target="_blank">
+                     Milano <br> Italia
                   </a>
-               </li>
-            </ul>
+               </div>
+               <div class="tp-offcanvas-2-right-info-item">
+                  <label class="mb-15">Seguimi</label>
+                  <div class="tp-offcanvas-2-right-social">
+                     <a href="https://www.instagram.com/alepatrone/">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M12.8438 5.15771C13.396 5.15771 13.8438 4.71 13.8438 4.15771C13.8438 3.60543 13.396 3.15771 12.8438 3.15771V5.15771ZM12.8348 3.15771C12.2825 3.15771 11.8348 3.60543 11.8348 4.15771C11.8348 4.71 12.2825 5.15771 12.8348 5.15771V3.15771ZM8.5 15C6.70396 15 5.45753 14.9979 4.51848 14.8716C3.60819 14.7492 3.13786 14.5269 2.80546 14.1945L1.39124 15.6088C2.15719 16.3747 3.11992 16.7016 4.25198 16.8538C5.35528 17.0021 6.7605 17 8.5 17V15ZM0 8.5C0 10.2395 -0.00212373 11.6447 0.146211 12.748C0.298413 13.8801 0.625299 14.8428 1.39124 15.6088L2.80546 14.1945C2.47305 13.8621 2.25076 13.3918 2.12838 12.4815C2.00212 11.5425 2 10.296 2 8.5H0ZM15 8.5C15 10.296 14.9979 11.5425 14.8716 12.4815C14.7492 13.3918 14.5269 13.8621 14.1945 14.1945L15.6088 15.6088C16.3747 14.8428 16.7016 13.8801 16.8538 12.748C17.0021 11.6447 17 10.2395 17 8.5H15ZM8.5 17C10.2395 17 11.6447 17.0021 12.748 16.8538C13.8801 16.7016 14.8428 16.3747 15.6088 15.6088L14.1945 14.1945C13.8621 14.5269 13.3918 14.7492 12.4815 14.8716C11.5425 14.9979 10.296 15 8.5 15V17ZM8.5 2C10.296 2 11.5425 2.00212 12.4815 2.12838C13.3918 2.25076 13.8621 2.47305 14.1945 2.80546L15.6088 1.39124C14.8428 0.625299 13.8801 0.298413 12.748 0.146211C11.6447 -0.00212374 10.2395 0 8.5 0V2ZM17 8.5C17 6.7605 17.0021 5.35528 16.8538 4.25198C16.7016 3.11992 16.3747 2.15719 15.6088 1.39124L14.1945 2.80546C14.5269 3.13786 14.7492 3.60819 14.8716 4.51848C14.9979 5.45753 15 6.70396 15 8.5H17ZM8.5 0C6.7605 0 5.35528 -0.00212374 4.25198 0.146211C3.11992 0.298413 2.15719 0.625299 1.39124 1.39124L2.80546 2.80546C3.13786 2.47305 3.60819 2.25076 4.51848 2.12838C5.45753 2.00212 6.70396 2 8.5 2V0ZM2 8.5C2 6.70396 2.00212 5.45753 2.12838 4.51848C2.25076 3.60819 2.47305 3.13786 2.80546 2.80546L1.39124 1.39124C0.625299 2.15719 0.298413 3.11992 0.146211 4.25198C-0.00212373 5.35528 0 6.7605 0 8.5H2ZM11.0545 8.50136C11.0545 9.91114 9.91163 11.054 8.50185 11.054V13.054C11.0162 13.054 13.0545 11.0157 13.0545 8.50136H11.0545ZM8.50185 11.054C7.09207 11.054 5.94922 9.91114 5.94922 8.50136H3.94922C3.94922 11.0157 5.9875 13.054 8.50185 13.054V11.054ZM5.94922 8.50136C5.94922 7.09158 7.09207 5.94873 8.50185 5.94873V3.94873C5.9875 3.94873 3.94922 5.98701 3.94922 8.50136H5.94922ZM8.50185 5.94873C9.91163 5.94873 11.0545 7.09158 11.0545 8.50136H13.0545C13.0545 5.98701 11.0162 3.94873 8.50185 3.94873V5.94873ZM12.8438 3.15771H12.8348V5.15771H12.8438V3.15771Z"
+                              fill="currentcolor" />
+                        </svg>
+                     </a>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
    </div>
-   <div class="body-overlay"></div>
-   <!-- tp-offcanvus-area-end -->
+   <!-- offcanvas end -->
 
 
    <header>
 
      <!-- tp-header-area-start -->
-      <div id="header-sticky" class="tp-header-area tp-header-2-spacing mt-20 tp-transparent tp-header-spacing">
+      <div class="tp-header-area tp-header-3-wrap mt-20 tp-transparent tp-header-spacing">
          <div class="container">
             <div class="row align-items-center">
-               <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+               <div class="col-6">
                   <div class="tp-header-logo">
-                     <a class="logo-dark d-none" href="index.html"><img data-width="300" src="assets/img/logo/logo-2.alepatrone.png" alt=""></a>
-                     <!-- <a class="logo-white" href="index.html"><img data-width="138" src="assets/img/logo/logo.png" alt=""></a> -->
+                     <a class="logo-dark d-none" href="index.html"><img data-width="300"
+                           src="assets/img/logo/logo-2.alepatrone.png" alt=""></a>
+                     <a class="logo-white" href="index.html"><img data-width="300" src="assets/img/logo/logo-2.alepatrone.png"
+                           alt=""></a>
                   </div>
                </div>
-               <div class="col-lg-6 d-none d-xl-block">
-                  <div class="tp-main-menu tp-main-menu-2 text-end mr-85">
-                     <nav class="tp-mobile-menu-active">
-                        <ul>
-                           <li class="has-dropdown position-static">
-                              <a href="index.html">
-                                 <span class="explore-text" data-text="Home">Home</span>
-                             </a>
-                           </li>
-                           <li class="has-dropdown position-static">
-                           <a href="about-me.html">
-                                 <span class="explore-text" data-text="About">About</span>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="contact-dark.html">
-                                 <span class="explore-text" data-text="Contact">Contatti</span>
-                              </a>
-                           </li>
-                        </ul>
-                     </nav>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-9 col-md-8 col-6">
+               <div class="col-6">
                   <div class="tp-header-right d-flex justify-content-end">
-                    
-                     <button class="tp-header-menu-btn tp-menu-bar ml-10">
+                     <button class="tp-header-menu-btn tp-offcanvas-open-btn ml-30" style="background: #d3669b;">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -148,6 +170,19 @@
             </div>
          </div>
       </div>
+      <nav class="tp-mobile-menu-active d-none">
+         <ul>
+            <li class="has-dropdown is-active">
+               <a href="index.html">Home</a>
+            </li>
+            <li class="is-active">
+               <a href="about-me.html">About</a>
+            </li>
+            <li class="is-active">
+               <a href="contact-dark.html">Contatti</a>
+            </li>
+         </ul>
+      </nav>
       <!-- tp-header-area-end -->
 
    </header>
@@ -163,7 +198,9 @@
                      <div class="col-lg-9">
                         <div class="tp-contact-top-content mb-65">
                            <span class="tp-contact-top-subtittle mb-15 d-inline-block">Contattami</span>
-                           <h2 class="tp-contact-top-tittle">Parliamo <img src="assets/img/contact/thumb.jpg" alt=""><br>
+                           <h2 class="tp-contact-top-tittle">Parliamo
+                              <!-- <img src="assets/img/contact/thumb.jpg" alt=""> -->
+                              <br>
                               del tuo progetto</h2>
                         </div>
                      </div>
